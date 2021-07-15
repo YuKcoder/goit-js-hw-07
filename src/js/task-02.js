@@ -8,3 +8,16 @@ const ingredients = [
     'Зелень',
     'Приправы',
 ];
+
+const ulList = document.querySelector('#ingredients');
+
+const allIngredients = [...ingredients].forEach(ingredient => {
+    const createEl = document.createElement('li');
+    createEl.append(ingredient);
+    return ulList.append(createEl);
+});
+
+
+
+
+
