@@ -17,6 +17,8 @@ const allIngredients = [...ingredients].forEach(ingredient => {
     return ulList.append(createEl);
 });
 
+console.log(ulList);
+
 
 
 
