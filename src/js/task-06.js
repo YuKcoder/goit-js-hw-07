@@ -12,7 +12,7 @@ const onInputBlur = event => {
         inputName.classList.remove('valid');
     }
     if (event.target.value.length === 0) {
-        inputName.classList.add('#validation-input');
+        inputName.classList.add('inputName');
         inputName.classList.remove('invalid');
     }
 }
